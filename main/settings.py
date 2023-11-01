@@ -24,8 +24,8 @@ SECRET_KEY = 'hz8(ou+a7kq72y2@$*w1uhmo)dy_g++9lul1p*+mw%=jgw5(5f'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
-SECURE_SSL_REDIRECT = True
-ALLOWED_HOSTS = ['foodapplication001.azurewebsites.net', 'www.foodapplication001.azurewebsites.net']
+
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
